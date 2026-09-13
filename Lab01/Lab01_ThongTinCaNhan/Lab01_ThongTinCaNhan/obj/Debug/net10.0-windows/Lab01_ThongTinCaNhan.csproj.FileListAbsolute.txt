@@ -1,0 +1,17 @@
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\bin\Debug\net10.0-windows\Lab01_ThongTinCaNhan.exe
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\bin\Debug\net10.0-windows\Lab01_ThongTinCaNhan.deps.json
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\bin\Debug\net10.0-windows\Lab01_ThongTinCaNhan.runtimeconfig.json
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\bin\Debug\net10.0-windows\Lab01_ThongTinCaNhan.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\bin\Debug\net10.0-windows\Lab01_ThongTinCaNhan.pdb
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.Form1.resources
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.csproj.GenerateResource.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.AssemblyInfoInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.AssemblyInfo.cs
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.csproj.CoreCompileInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\refint\Lab01_ThongTinCaNhan.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.pdb
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_ThongTinCaNhan.genruntimeconfig.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\ref\Lab01_ThongTinCaNhan.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab01_ThongTinCaNhan\Lab01_ThongTinCaNhan\obj\Debug\net10.0-windows\Lab01_Th.C0652784.Up2Date

@@ -1,4 +1,4 @@
-#LAB 02: QUẢN LÝ MẢNG SỐ NGUYÊN BẰNG CONSOLE
+# LAB 02: QUẢN LÝ MẢNG SỐ NGUYÊN BẰNG CONSOLE
 
 - **Học phần:** COMP1019 - Lập trình trên Windows
 - **Sinh viên thực hiện:** Ngô Minh Hải
@@ -20,7 +20,8 @@ Chương trình Console quản lý mảng 1 chiều với các chức năng đi�
 
 ## 2. Minh chứng kết quả kiểm thử (Test Cases)
 
-### 2.1. Kiểm tra các trường hợp bẫy lỗi
+<details>
+<summary><b>2.1. Kiểm tra các trường hợp bẫy lỗi (Bấm để xem ảnh)</b></summary>
 
 - **Cảnh báo khi chưa nhập mảng:**
 
@@ -34,9 +35,12 @@ Chương trình Console quản lý mảng 1 chiều với các chức năng đi�
 
 ![Lỗi chọn chức năng](images/LoiChonChucNang.png)
 
----
+</details>
 
-### 2.2. Dữ liệu thử nghiệm (5 phần tử: 4, 1, 9, 2, 7)
+<br>
+
+<details>
+<summary><b>2.2. Dữ liệu thử nghiệm 5 phần tử: 4, 1, 9, 2, 7 (Bấm để xem ảnh)</b></summary>
 
 - **Nhập và xuất mảng:**
 
@@ -58,9 +62,12 @@ Chương trình Console quản lý mảng 1 chiều với các chức năng đi�
 
 ![Sắp xếp tăng dần](images/SapXepTangDan.png)
 
----
+</details>
 
-### 2.3. Kiểm thử chức năng tìm kiếm và thoát
+<br>
+
+<details>
+<summary><b>2.3. Kiểm thử chức năng tìm kiếm và thoát (Bấm để xem ảnh)</b></summary>
 
 - **Tìm x = 9 (Có tìm thấy):**
 
@@ -73,3 +80,5 @@ Chương trình Console quản lý mảng 1 chiều với các chức năng đi�
 - **Thoát chương trình an toàn:**
 
 ![Thoát](images/Thoat.png)
+
+</details>

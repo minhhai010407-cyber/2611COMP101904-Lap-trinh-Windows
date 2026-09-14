@@ -1,0 +1,15 @@
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\bin\Debug\net10.0\Lab02_QuanLyMang.exe
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\bin\Debug\net10.0\Lab02_QuanLyMang.deps.json
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\bin\Debug\net10.0\Lab02_QuanLyMang.runtimeconfig.json
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\bin\Debug\net10.0\Lab02_QuanLyMang.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\bin\Debug\net10.0\Lab02_QuanLyMang.pdb
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.AssemblyInfoInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.AssemblyInfo.cs
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.csproj.CoreCompileInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\refint\Lab02_QuanLyMang.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.pdb
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_QuanLyMang.genruntimeconfig.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\ref\Lab02_QuanLyMang.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab02_QuanLyMang\Lab02_QuanLyMang\obj\Debug\net10.0\Lab02_Qu.45A5F3AA.Up2Date

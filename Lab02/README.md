@@ -1,4 +1,4 @@
-# BÁO CÁO THỰC HÀNH BUỔI 2 - LAB 02: QUẢN LÝ MẢNG SỐ NGUYÊN BẰNG CONSOLE
+#LAB 02: QUẢN LÝ MẢNG SỐ NGUYÊN BẰNG CONSOLE
 
 - **Học phần:** COMP1019 - Lập trình trên Windows
 - **Sinh viên thực hiện:** Ngô Minh Hải

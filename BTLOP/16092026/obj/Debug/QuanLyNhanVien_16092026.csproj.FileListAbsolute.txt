@@ -1,0 +1,7 @@
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\bin\Debug\QuanLyNhanVien_16092026.exe.config
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\bin\Debug\QuanLyNhanVien_16092026.exe
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\bin\Debug\QuanLyNhanVien_16092026.pdb
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\obj\Debug\QuanLyNhanVien_16092026.csproj.AssemblyReference.cache
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\obj\Debug\QuanLyNhanVien_16092026.csproj.CoreCompileInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\obj\Debug\QuanLyNhanVien_16092026.exe
+C:\Users\Ngo Minh Hai\source\repos\QuanLyNhanVien_16092026\QuanLyNhanVien_16092026\obj\Debug\QuanLyNhanVien_16092026.pdb

@@ -1,0 +1,15 @@
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\bin\Debug\net10.0\Lab04_QuanLySanPham.exe
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\bin\Debug\net10.0\Lab04_QuanLySanPham.deps.json
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\bin\Debug\net10.0\Lab04_QuanLySanPham.runtimeconfig.json
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\bin\Debug\net10.0\Lab04_QuanLySanPham.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\bin\Debug\net10.0\Lab04_QuanLySanPham.pdb
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.AssemblyInfoInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.AssemblyInfo.cs
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.csproj.CoreCompileInputs.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\refint\Lab04_QuanLySanPham.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.pdb
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_QuanLySanPham.genruntimeconfig.cache
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\ref\Lab04_QuanLySanPham.dll
+C:\Users\Ngo Minh Hai\source\repos\Lab04_QuanLySanPham\Lab04_QuanLySanPham\obj\Debug\net10.0\Lab04_Qu.23A93A21.Up2Date

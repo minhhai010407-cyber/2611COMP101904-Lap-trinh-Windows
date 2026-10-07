@@ -65,7 +65,7 @@ Nhằm đảm bảo tính chuẩn hóa mã nguồn, dự án áp dụng hệ th�
 
 ## 4. Minh chứng Thực nghiệm và Kiểm thử Chức năng (Test Cases)
 
-Hệ thống đã trải qua quá trình kiểm thử các kịch bản thao tác và ghi nhận kết quả thực nghiệm tương ứng với 7 hình ảnh minh chứng[cite: 19]:
+Hệ thống đã trải qua quá trình kiểm thử các kịch bản thao tác và ghi nhận kết quả thực nghiệm tương ứng với 7 hình ảnh minh chứng:
 
 ### 4.1. Khởi tạo Giao diện và Nạp Dữ liệu Mẫu (Load Form)
 Giao diện khởi động với đầy đủ thanh công cụ, các trường nhập liệu được thiết lập mặc định và nạp sẵn dữ liệu mẫu lên bảng điều khiển:

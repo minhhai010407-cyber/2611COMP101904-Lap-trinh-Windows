@@ -1,6 +1,6 @@
 # BÁO CÁO THỰC HÀNH BUỔI 6: WINDOWS FORMS NÂNG CAO VÀ DATAGRIDVIEW
 
-* **Học phần:** COMP1019 - Lập trình trên Windows
+* **Học phần:** 2611COMP101904 - Lập trình trên Windows
 * **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
 * **Sinh viên thực hiện:** Ngô Minh Hải
 * **Môi trường phát triển:** Microsoft Visual Studio - C# Windows Forms App (.NET)
@@ -94,3 +94,6 @@ Hệ thống bật hộp thoại thông báo xác nhận hai lựa chọn Yes/No
 ### 4.7. Phản hồi và Cập nhật Trạng thái Hệ thống (StatusStrip Sync)
 Thanh trạng thái dưới đáy màn hình lập tức cập nhật thông báo hoàn tất thao tác và hiển thị chính xác tổng số lượng sản phẩm tồn tại trong danh sách:
 ![Cập nhật StatusStrip](Images/07_CapNhat_StatusStrip.png)
+
+
+

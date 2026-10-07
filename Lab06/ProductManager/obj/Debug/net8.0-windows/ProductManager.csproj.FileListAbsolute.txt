@@ -1,0 +1,17 @@
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\bin\Debug\net8.0-windows\ProductManager.exe
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\bin\Debug\net8.0-windows\ProductManager.deps.json
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\bin\Debug\net8.0-windows\ProductManager.runtimeconfig.json
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\bin\Debug\net8.0-windows\ProductManager.dll
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\bin\Debug\net8.0-windows\ProductManager.pdb
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.FrmProduct.resources
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.csproj.GenerateResource.cache
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.AssemblyInfoInputs.cache
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.AssemblyInfo.cs
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.csproj.CoreCompileInputs.cache
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.dll
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\refint\ProductManager.dll
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.pdb
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductManager.genruntimeconfig.cache
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ref\ProductManager.dll
+C:\Users\Ngo Minh Hai\Downloads\ProductManager\ProductManager\ProductManager\obj\Debug\net8.0-windows\ProductM.F4B8B69F.Up2Date

@@ -3,7 +3,7 @@
 * **Học phần:** 2611COMP101904 - Lập trình trên Windows
 * **Giảng viên hướng dẫn:** ThS. Lê Thanh Thoại
 * **Sinh viên thực hiện:** Ngô Minh Hải
-* **Môi trường phát triển:** Microsoft Visual Studio - C# Windows Forms App
+* **Môi trường phát triển:** Microsoft Visual Studio - C# Windows Forms App 
 * **Tên ứng dụng:** ShopManagerMini
 
 ---
@@ -65,19 +65,97 @@ Cơ chế bảo vệ dữ liệu với hộp thoại xác nhận lựa chọn tr
 
 ---
 
-## Câu hỏi nộp kèm
+## 4. Trả lời Câu hỏi Lý thuyết Chuyên đề
 
-**1. SDI và MDI khác nhau như thế nào?**
-SDI: mỗi Form độc lập, đóng/mở riêng, không nằm trong Form khác. MDI: có một Form cha (`IsMdiContainer = true`) chứa nhiều Form con bên trong vùng làm việc; đóng Form cha thì các Form con đóng theo.
+### Câu 1: SDI và MDI khác nhau như thế nào?
+* **SDI (Single Document Interface):** Mỗi Form là một cửa sổ độc lập, có nút đóng, thu nhỏ, phóng to riêng và nằm ngang hàng với các Form khác. Đóng Form này không ảnh hưởng Form kia. Ví dụ: Notepad, hoặc các bài lab trước như `CourseRegistrationApp` và `ProductManager` (chỉ có một Form).
+* **MDI (Multiple Document Interface):** Có một Form cha làm khung chứa (`IsMdiContainer = true`), các Form con chỉ hiển thị bên trong vùng làm việc của Form cha và không được kéo ra ngoài. Đóng Form cha thì mọi Form con đóng theo. Ví dụ: Word hoặc Excel bản cũ, nhiều tài liệu mở trong một cửa sổ chính.
 
-**2. Vì sao Form đăng nhập nên dùng ShowDialog()?**
-`ShowDialog()` mở Form dạng modal: chương trình dừng lại cho đến khi đăng nhập xong, người dùng không thao tác được chỗ khác. Kết quả trả về `DialogResult` để `Program.cs` biết đăng nhập thành công (`OK`) hay thoát (`Cancel`).
+| Tiêu chí | SDI | MDI |
+| :--- | :--- | :--- |
+| **Vị trí Form** | Độc lập, tự do trên màn hình | Nằm trong Form cha |
+| **Quan hệ** | Ngang hàng | Cha - con (`MdiParent`) |
+| **Đóng Form cha** | Không ảnh hưởng Form khác | Đóng luôn các Form con |
+| **Thiết lập** | Không cần | Cha: `IsMdiContainer = true`; Con: `MdiParent = this` |
+| **Trong bài này** | `FrmLogin` | `FrmMain` (cha), `FrmProduct`, `FrmCustomer`, `FrmAbout` (con) |
 
-**3. Dữ liệu user được truyền từ FrmLogin sang FrmMain bằng cách nào?**
-`FrmLogin` có property `NguoiDung` (kiểu `User`), gán khi đăng nhập đúng. Sau `ShowDialog()` trả `OK`, `Program.cs` lấy `frmLogin.NguoiDung` và truyền vào constructor `new FrmMain(frmLogin.NguoiDung, ...)`. `FrmMain` dùng để hiển thị tên và vai trò trên StatusStrip.
+---
 
-**4. Bấm menu sản phẩm nhiều lần thì xử lý thế nào để không mở trùng Form?**
-Hàm `DaMoForm(Type)` trong `FrmMain` duyệt `MdiChildren`; nếu đã có Form cùng loại thì `Activate()` Form đó và thoát, chỉ khi chưa có mới tạo Form mới, gán `MdiParent = this` rồi `Show()`.
+### Câu 2: Vì sao Form đăng nhập nên dùng `ShowDialog()`?
+`ShowDialog()` mở Form ở chế độ modal: dòng lệnh gọi nó sẽ dừng lại, người dùng không thao tác được với Form khác cho đến khi Form đăng nhập đóng. Có 3 lý do chính:
+* **Chặn đi tiếp khi chưa đăng nhập:** Với `Show()` thì Form đăng nhập chỉ là một cửa sổ bình thường, chương trình vẫn chạy tiếp và có thể mở Form chính dù chưa đăng nhập.
+* **Có kết quả trả về:** `ShowDialog()` trả về `DialogResult` (`OK` khi đăng nhập thành công, `Cancel` khi bấm Thoát), nên nơi gọi biết phải làm gì tiếp.
+* **Đúng thứ tự:** Chỉ khi đăng nhập xong thì mới tạo `FrmMain`.
 
-**5. Khi nào dùng constructor, khi nào dùng property để truyền dữ liệu giữa các Form?**
-Constructor: dữ liệu bắt buộc phải có ngay khi Form được tạo (ví dụ `FrmMain` cần user, `FrmProduct` cần danh sách sản phẩm). Property: dữ liệu có sau khi Form đã chạy hoặc cần lấy ngược về Form gọi (ví dụ `FrmLogin.NguoiDung` chỉ có giá trị sau khi người dùng đăng nhập).
+Trong `Program.cs`:
+```csharp
+FrmLogin frmLogin = new FrmLogin();
+if (frmLogin.ShowDialog() != DialogResult.OK) break;
+FrmMain frmMain = new FrmMain(frmLogin.NguoiDung, dsSanPham, dsKhachHang);
+Application.Run(frmMain);
+```
+
+---
+
+### Câu 3: Dữ liệu user được truyền từ FrmLogin sang FrmMain bằng cách nào?
+Truyền theo 3 bước:
+1. `FrmLogin` lưu user vào property:
+   ```csharp
+   public User NguoiDung { get; private set; }
+   ```
+   Khi tên đăng nhập và mật khẩu đúng, nó gán `NguoiDung = u;` rồi `DialogResult = DialogResult.OK;` để đóng Form.
+2. `Program.cs` đọc property `frmLogin.NguoiDung` sau khi `ShowDialog()` trả về `OK`.
+3. Truyền vào constructor của `FrmMain`:
+   ```csharp
+   new FrmMain(frmLogin.NguoiDung, dsSanPham, dsKhachHang);
+   ```
+
+`FrmMain` nhận user và hiển thị lên `StatusStrip`:
+```csharp
+lblNguoiDung.Text = "Người dùng: " + nguoiDung.HoTen;
+lblVaiTro.Text = "Vai trò: " + nguoiDung.VaiTro;
+```
+*(Lớp `User` nằm trong thư mục `Models`, gồm `Username`, `Password`, `HoTen`, `VaiTro`)*.
+
+---
+
+### Câu 4: Bấm menu sản phẩm nhiều lần thì xử lý thế nào để không mở trùng Form?
+Trước khi tạo Form mới, chương trình kiểm tra trong danh sách Form con đang mở (`MdiChildren`) xem đã có Form cùng loại chưa. Nếu có thì chỉ đưa Form đó lên phía trước:
+
+```csharp
+private bool DaMoForm(Type loaiForm)
+{
+    foreach (Form f in MdiChildren)
+    {
+        if (f.GetType() == loaiForm)
+        {
+            if (f.WindowState == FormWindowState.Minimized) 
+                f.WindowState = FormWindowState.Normal;
+            f.Activate();
+            return true;
+        }
+    }
+    return false;
+}
+```
+
+Khi bấm menu:
+```csharp
+if (DaMoForm(typeof(FrmProduct))) return;
+FrmProduct frm = new FrmProduct(dsSanPham);
+frm.MdiParent = this;
+frm.Show();
+```
+
+**Kết quả:** Bấm lần đầu thì tạo và hiển thị Form. Bấm lần sau, nếu Form đang mở thì kích hoạt lại (hoặc khôi phục nếu đang thu nhỏ), không tạo thêm. Nếu đã đóng Form thì bấm lại sẽ tạo mới. Cách này dùng chung cho `FrmProduct`, `FrmCustomer` và `FrmAbout`.
+
+---
+
+### Câu 5: Khi nào dùng constructor, khi nào dùng property để truyền dữ liệu giữa các Form?
+
+| Tiêu chí | Constructor | Property |
+| :--- | :--- | :--- |
+| **Dùng khi** | Dữ liệu bắt buộc có ngay lúc tạo Form | Dữ liệu có sau, hoặc cần lấy ngược về Form gọi |
+| **Ưu điểm** | Không thể quên truyền, Form luôn có dữ liệu để chạy | Linh hoạt, gán hoặc đọc bất cứ lúc nào |
+| **Nhược điểm** | Cứng, thêm dữ liệu phải sửa constructor | Có thể quên gán, dễ gặp giá trị null |
+| **Trong bài này** | `new FrmMain(user, dsSanPham, dsKhachHang)`, `new FrmProduct(dsSanPham)` | `FrmLogin.NguoiDung`, `FrmMain.DangXuat` |

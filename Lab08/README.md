@@ -87,13 +87,3 @@ Chức năng lưu toàn bộ nội dung đồ họa trên canvas thành file hì
 
 ---
 
-## 4. Hướng dẫn Biên dịch và Chạy Ứng dụng
-
-1. **Khởi động:** Mở tệp giải pháp `COMP1019_Lab08_SimplePaint.sln` bằng Microsoft Visual Studio 2022 trở lên.
-2. **Biên dịch:** Nhấn phím tắt `Ctrl + Shift + B` để build toàn bộ project ở chế độ `Debug` hoặc `Release`.
-3. **Khởi chạy:** Nhấn `F5` (hoặc click nút **Start**) để khởi chạy phần mềm.
-4. **Thao tác vẽ:**
-   * Chọn chế độ hình vẽ trên ComboBox `cboMode`.
-   * Tùy chỉnh độ dày tại `nudWidth` và chọn màu vẽ tại nút `btnColor`.
-   * Nhấp và giữ chuột trái trên vùng `canvas` để vẽ; rê chuột theo ý muốn và nhả chuột để hoàn tất nét vẽ.
-   * Sử dụng nút **Undo** để xóa nét vẽ vừa tạo, hoặc nút **Clear** để làm mới lại canvas.

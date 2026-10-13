@@ -52,3 +52,12 @@
 
 ### 3.5. Cửa sổ chọn máy in (PrintDialog)
 ![Hộp thoại in](Images/04_PrintDialog_ChonMayIn.png)
+
+---
+
+## 4. Cách chạy chương trình
+
+1. Mở file solution `Lab09_StudentCard.sln` bằng Visual Studio.
+2. Nhấn `Ctrl + Shift + B` để build.
+3. Nhấn `F5` để chạy ứng dụng.
+4. Nhập đầy đủ thông tin, chọn ảnh để xem preview thẻ, sau đó dùng các nút "Xem trước in" hoặc "In thẻ".

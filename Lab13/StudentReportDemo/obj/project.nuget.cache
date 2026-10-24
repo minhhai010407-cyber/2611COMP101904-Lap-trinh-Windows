@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HyBXb+0Fg6c=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Ngo Minh Hai\\Downloads\\MSSV_HoTen_Lab13\\StudentReportDemo\\StudentReportDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Ngo Minh Hai\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.32\\microsoft.windowsdesktop.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\Ngo Minh Hai\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.32\\microsoft.netcore.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\Ngo Minh Hai\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.32\\microsoft.aspnetcore.app.ref.8.0.32.nupkg.sha512",
+    "C:\\Users\\Ngo Minh Hai\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.32\\microsoft.netcore.app.host.win-x64.8.0.32.nupkg.sha512"
+  ],
+  "logs": []
+}
